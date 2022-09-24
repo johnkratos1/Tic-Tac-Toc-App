@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  display: grid;
+  height: 240px;
+  width: 240px;
+  grid-template-columns: auto auto auto;
+  margin: 50px;
+  font-size: 60px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blueviolet;
+  padding-bottom: 10px;
+  height: 80px;
+  width: 80px;
+}
+
+.displayBox {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+button {
+  margin-top: 10px;
+  width: 60px;
+  height: 30px;
+  padding: 20px auto;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 255, 0.267);
+  color: white;
+  background-color: rgba(96, 10, 175, 0.89);
+}
+.box-0 {
+  border-right: 2px solid blueviolet;
+  border-bottom: 2px solid blueviolet;
+}
+.box-1 {
+  border-bottom: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+}
+.box-2 {
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid blueviolet;
+}
+.box-3 {
+  border-right: 2px solid blueviolet;
+  border-bottom: 2px solid blueviolet;
+  border-top: 2px solid blueviolet;
+}
+.box-4 {
+  border-right: 2px solid blueviolet;
+  border-bottom: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-top: 2px solid blueviolet;
+}
+.box-5 {
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid blueviolet;
+  border-top: 2px solid blueviolet;
+}
+.box-6 {
+  border-top: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+}
+.box-7 {
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+}
+.box-8 {
+  border-left: 2px solid blueviolet;
+  border-top: 2px solid blueviolet;
+}
